@@ -5,4 +5,12 @@ public class Library {
     void addBook(Book book){
         Book.add(book);
     }
+
+    void viewBooks(){
+        for(Book b : Book){
+            System.out.println(b.name);
+        }
+    }
+
+    
 }
